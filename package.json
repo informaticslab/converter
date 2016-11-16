@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter mocha-bamboo-reporter"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "chai": "^3.5.0",
     "express": "^4.14.0",
     "mocha": "^3.1.2",
+    "mocha-bamboo-reporter": "^1.1.1",
     "request": "^2.78.0"
   }
 }
